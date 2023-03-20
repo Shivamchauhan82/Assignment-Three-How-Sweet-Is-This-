@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    }
+    body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #ffefd5, #ffdab9);
+    }
+    
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: #7f3030b8;
+    }
+    
+    h1 {
+    margin: 0;
+    font-size: 2rem;
+    }
+    
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+    }
+    
+    
+    nav li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    
+    nav li:last-child {
+    margin-right: 0;
+    }
+    
+    nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    }
+    
+    nav a:hover {
+    color: #f90;
+    }
+    nav ul li a:hover {
+        color: #fdd835;
+        transition: color 0.3s ease;
+      }
+    
+    main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+
+    .candy-images {
+        display: flex;
+        justify-content: flex-end;
+      }
+      
+      .candy-images img {
+        width: 140px;
+        height: 121px;
+        margin: 0 10px;
+      }
+      
+    .product-image {
+        background-image: url('https://images.unsplash.com/photo-1573431727532-49e2b2b28d84'), url('https://images.unsplash.com/photo-1552078614-1c4248b372fe');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    
+    .product-image img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .product-description h2 {
+    font-size: 1.5rem;
+    margin-top: 40px;
+    }
+    
+    .product-description ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .product-description li {
+    margin-bottom: 10px;
+    }
+    
+    footer {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #7f3030b8;
+    }
+    
+    .logo img {
+        height: 50px;
+        filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.3));
+      }
+
+    .logo img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .company-info h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    }
+    
+    .contact-form {
+    max-width: 400px;
+    }
+    
+    .contact-form h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    }
+    
+    .contact-form form input,
+    .contact-form form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    }
+    
+    .contact-form form input[type="submit"] {
+    background: #f90;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    .contact-form form input[type="submit"]:hover {
+    background: #ff8c00;
+    }
